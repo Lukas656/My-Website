@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    font-family: Amazon Ember,Amazon Ember Arabic,Arial,sans-serif;
+  }
+  
+.temas{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 11%;
+    width: 11%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 45px;
+
+}
+#sol{
+    width: 55px;
+    padding: 15px;
+    border-radius: 45px;
+}
+#lua{
+    width: 55px;
+    padding: 15px;
+    border-radius: 45px;
+}
+
+.header {
+    padding: 80px; 
+    text-align: center; 
+    background-image: url('src/capa.jpeg'); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white; 
+  }
+  .header h1 {
+    font-size: 40px;
+    padding-top: 12%;
+  }
+  .navbar {
+    overflow: hidden; 
+    background-color: rgb(132, 0, 184); 
+  }
+  
+  
+  .navbar a {
+    float: left; 
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
+  }
+  
+
+  .navbar a.right {
+    float: right; 
+    background-color: black;
+  }
+  
+ 
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black; 
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .side {
+    flex: 30%;
+    padding: 20px;
+  }
+  .main {   
+    flex: 70%;
+    padding: 20px;
+  }
+  .main a{
+    color: rgb(162, 0, 255);
+  }
+  /* Fake image, just for this example */
+  .ling1{
+    background-image: url('src/linguagens.jpg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 185px;
+  }
+  .ling2{
+    background-image: url('src/linguagem-B.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 195px;
+  }
+  .foto1{
+    background-image: url('src/Photo01.jpeg');
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: 225px;
+  }
+  .foto5{
+    background-image: url('src/Portifolio.png');
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: 620px;
+  }
+  .foto6{
+    background-image: url('src/Formulario01.png');
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: 620px;
+  }
+  .foto7{
+    background-image: url('src/Formulario02.png');
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: 620px;
+  }
+  .foto8{
+    background-image: url('src/Batman.png');
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: 620px;
+  }
+  .foto9{
+    background-image: url('src/Marvel.png');
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: 620px;
+  }
+  .foto10{
+    background-image: url('src/Basketball.png');
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: 620px;
+  }
+  .foto11{
+    background-image: url('src/Countdown.png');
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: 620px;
+  }
+  .foto12{
+    background-image: url('src/Projeto_clone_site.png');
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: 620px;
+  }
+  .foto13{
+    background-image: url('src/Igeja1\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: 620px;
+  }
+  .foto14{
+    background-image: url('src/vet.png');
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: 620px;
+  }
+  .foto15{
+    background-image: url('src/Social-tree.png');
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: 620px;
+  }
+  .foto16{
+    background-image: url('src/RocketShoes.png');
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: 620px;
+  }
+  .foto17{
+    background-image: url('src/Stories.png');
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: 620px;
+  }
+  .foto18{
+    background-image: url('src/Viagens.png');
+    background-repeat: no-repeat;
+    background-position: 25%;
+    background-size: 620px;
+  }
+
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+ 
+  @media screen and (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }  
+    .temas{
+    position: absolute;
+    left: 4%;
+    background-color: rgb(0, 0, 0);
+    width: 31%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 45px;
+}
+#sol{
+    width: 47px;
+}
+#lua{
+    width: 47px;
+    
+}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+
+  
+ .footer {
+    padding: 5px;
+    text-align: center;
+    background: rgb(126, 126, 126);
+  }
+  
